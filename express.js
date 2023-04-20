@@ -4,6 +4,11 @@ var app = express();
 var bodyParser = require("body-parser");
 app.use(bodyParser.urlencoded({ extended: true }));
 
+const cors = require('cors');
+app.use(cors({
+    origin: '*'
+}));
+
 // Mongo db module
 const MongoClient = require("mongodb").MongoClient;
 
