@@ -2,7 +2,7 @@
   "name": "nodejsrestapi",
   "version": "1.0.0",
   "description": "nodejs rest api using mongodb",
-  "main": "ajaxmessage.js",
+  "main": "express.js",
   "dependencies": {
     "abbrev": "^1.1.1",
     "accepts": "^1.3.8",
@@ -119,7 +119,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node express.js"
   },
   "keywords": [
     "render",
